@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+
+
+
+.backdrop{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 3;
+    display: none;
+}
+
+/* for toggle in js  */
+.backdropActive{
+    display: block;
+
+}
+
+/* for toggle in js  */
+
+.modal{
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    width: 30%;
+    height: 60%;
+    padding: 10px;
+    display: none;
+    background-image: url('https://media.istockphoto.com/vectors/foggy-clouds-vector-id1336256217?b=1&k=20&m=1336256217&s=612x612&w=0&h=TLB9ucOtqcR-70KLHp172ElTjz02MVz94wVeYfQ4eOo=');
+   
+}
+
+/* for toggle in js  */
+
+.modalActive{
+    display: block;
+}
+
+/* for toggle in js  */
+
+
+
+
+.modalCloseButton span{
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+
+}
+
+.modalCloseButton span:first-child{
+    transform: rotate(45deg);
+   
+}
+
+.modalCloseButton span:last-child{
+    transform: rotate(-45deg);
+    
+}
+
+
+.modalOrder{
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(179, 179, 176);
+    top:20px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    margin: 20px 150px 0 150px;
+    
+    
+}   
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.contentText{
+    font-size: 30px;
+    text-align: center;
+    margin:20px;
+    font-family: 'Dancing Script', cursive;
+    color:black;
+
+}
+/* p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    text-transform: capitalize;
+} */

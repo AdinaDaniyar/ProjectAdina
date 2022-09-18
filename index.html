@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/accordion.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header__nav">
+                <img src="./images/restaurant.png">
+                <ul class="nav">
+                    <li class="nav__item"><a href="#slider">Our Story</a></li>
+                    <li class="nav__item"><a href="#">Menu</a></li>
+                    <li class="nav__item"><a href="#accordion">Gift Cards</a></li>
+                    <li class="nav__item"><a href="#cover">Loccation</a></li>
+                    <li class="nav__item"><a href="#">Contacts</a></li>
+                </ul>
+                <div class="mobile-btn">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="cover">
+        <div class="container cover__container">
+            <div class="cover__wrap">
+                <h1>Our food is the best</h1>
+                <p class="cover__p">The best combination of taste and product quality</p>
+                <button class="cover__button">Order Food</button>
+            </div>
+        </div>
+    </section>
+    <!-- фон модалки -->
+    <div class="backdrop">
+        <!-- фон модалки -->
+        <div class="modal">
+            <div class="modalHeader">
+                <h2 class="order">Menu For Order</h2>
+                <div class="modalCloseButton">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="modalContent">
+
+            </div>
+        </div>
+    </div>
+
+
+    <section id="best">
+        <div class="wrap">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper first">
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="accordion">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2>Our Menu</h2>
+                    <div class="accordion__wrap">
+                    <div class="accordion__box ">
+                        <p class="accordion__text">Burgers</p>
+                        <img class="img__accordion" src="./Images/plus.png" alt="">
+                    </div>
+                    <div class="accordion__content">
+                        <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, in!</p>
+                    </div></div>
+                    <div class="accordion__wrap">
+                    <div class="accordion__box">
+                        <p class="accordion__head">Pizza</p>
+                        <img class="img__accordion" src="./Images/plus.png" alt="">
+                    </div>
+                    <div class="accordion__content">
+                        <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, in!</p>
+                    </div></div>
+                    <div class="accordion__wrap">
+                    <div class="accordion__box">
+                        <p class="accordion__head">Pasta</p>
+                        <img class="img__accordion" src="./Images/plus.png" alt="">
+                    </div>
+                    <div class="accordion__content">
+                        <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, in!</p>
+                    </div></div>
+                   
+                   
+                </div>
+                    <div class="col-6">
+                        <h2>Questions and Answers</h2>
+                        <div class="accordion__wrap">
+                        <div class="accordion__box">
+                            <p class="accordion__head">How much cost burger?</p>
+                            <img class="img__accordion" src="./Images/plus.png" alt="">
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, in!</p>
+                        </div></div>
+                        <div class="accordion__wrap">
+                        <div class="accordion__box">
+                            <p class="accordion__head">How can I order food?</p>
+                            <img class="img__accordion" src="./Images/plus.png" alt="">
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, in!</p>
+                        </div></div>
+                        <div class="accordion__wrap">
+                        <div class="accordion__box">
+                            <p class="accordion__head">How can I contact with you?</p>
+                            <img class="img__accordion" src="./Images/plus.png" alt="">
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, in!</p>
+                        </div></div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+<section id="telegram">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="box__telegram"></div>
+                <img src="" alt="">
+            </div>
+            <div class="col-6">
+                <div class="box__telegram"></div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/accordion.js"></script>
+</body>
+
+</html>
