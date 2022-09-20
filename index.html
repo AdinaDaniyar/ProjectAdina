@@ -153,9 +153,10 @@
             <div class="col-6__telegram">
                 <div class="box__telegram">
                     <form id="form">
-                <input placeholder="name" type="text" id="inputMessage">
+                        <h2 class="telegram">Reservation</h2>
+                <input placeholder="Name:" type="text" id="inputMessage">
 
-                <input placeholder="number" type="number" id="inputNumber">
+                <input placeholder="Number:" type="number" id="inputNumber">
                 <button class="telegram__button">Apply fot Reserve</button>
             </form>
             </div>
@@ -163,10 +164,10 @@
         </div>
     </div>
 </section>
-<div class="backdrop">
-    <div class="modal">
+<div class="backdropTel">
+    <div class="modalTel">
         <div class="modalheader2">
-            <h2>Message success</h2>
+            <h2 class="reservation">Reservation</h2>
             <div class="modalclosebutton">
                 <span></span>
                 <span></span>
@@ -181,12 +182,12 @@
 
 </div>
 
-<section>
+<section id="map">
     <div class="container">
         <div class="row">
             <div class="col-6">
                 <div class="box">
-                    <div id="map"></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.686106552864!2d12.324155815397429!3d45.43582854335736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1cf6664f7dd%3A0xffbae2f129b0a69a!2zQ2FsbGUgZGVpIEFsYmFuZXNpLCAzOTI4LCAzMDEyMyBWZW5lemlhIFZFLCDQmNGC0LDQu9C40Y8!5e0!3m2!1sru!2skg!4v1663668797089!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="col-6__map">
@@ -218,7 +219,13 @@
     </div>
 </section>
 
-
+<section id="footer">
+    <div class="container">
+        <div class="row__footer">
+            
+        </div>
+    </div>
+</section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtFLVGZU6NomLF-KBeqCF2gB0rWmodEGU&callback=initMap"></script>
